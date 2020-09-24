@@ -19,6 +19,17 @@ describe("#DependencyInjectionContainer", () => {
     });
   });
 
+  describe(".factory()", () => {
+    it("should register the factory properly", () => {
+      expect(container.factory("foobar", () => () => "barfoo"));
+    });
+    it("should throw an error", () => {
+      expect(() => container.factory("foobar", () => () => "barfoo")).to.throw(
+        "Factory for foobar already exists!"
+      );
+    });
+  });
+
   describe(".getDependency()", () => {
     before(() => container.register("bar", "foo"));
     it("should return the correct dependency", () => {
