@@ -9,7 +9,7 @@ class DependencyInjectionContainer {
 
   getDependency(id: string): any {
     if (!this.dependencies[id] && this.factories[id]) {
-      this.dependencies[id] = this.factories[id](this.dependencies);
+      this.dependencies[id] = this.factories[id]({...this.dependencies});
     }
     return this.dependencies[id];
   }
