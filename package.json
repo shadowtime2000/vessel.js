@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shadowtime2000/vessel.js.git"
+    "url": "git+https://github.com/shadowtime2000/watercraft.js.git"
   },
   "keywords": [
     "dependency-injection",
@@ -21,9 +21,9 @@
   "author": "shadowtime2000",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shadowtime2000/vessel.js/issues"
+    "url": "https://github.com/shadowtime2000/watercraft.js/issues"
   },
-  "homepage": "https://github.com/shadowtime2000/vessel.js#readme",
+  "homepage": "https://github.com/shadowtime2000/watercraft.js#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.1.3",
