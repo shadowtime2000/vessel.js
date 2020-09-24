@@ -1,6 +1,6 @@
 {
   "name": "watercraft.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple and lightweight yet powerful Dependency Injection Container package",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
