@@ -1,4 +1,4 @@
-# vessel.js
+# vesseljs
 A simple and lightweight yet powerful Dependency Injection Container package
 
 ## Installation
@@ -6,7 +6,7 @@ A simple and lightweight yet powerful Dependency Injection Container package
 
 ### Usage
 ```javascript
-const DependencyInjectionContainer = require("vessel.js");
+const DependencyInjectionContainer = require("vesseljs");
 
 const vessel = new DependencyInjectionContainer();
 
