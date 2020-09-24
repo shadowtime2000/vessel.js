@@ -9,10 +9,12 @@ class DependencyInjectionContainer {
 
   getDependency(id: string): any {
     if (!this.dependencies[id] && this.factories[id]) {
-      this.dependencies[id] = this.factories[id](Object.assign({}, this.dependencies))
-      this.factories[id] = null
+      this.dependencies[id] = this.factories[id](
+        Object.assign({}, this.dependencies)
+      );
+      this.factories[id] = null;
     }
-    return this.dependencies[id]
+    return this.dependencies[id];
   }
 
   register<T>(id: string, dependency: (deps: any) => T) {

@@ -14,4 +14,5 @@ const DependencyInjectionContainer = require("watercraft.js");
 const vessel = new DependencyInjectionContainer();
 
 vessel.register("foo", () => "foobar");
+vessel.getDependency("foo"); // "foobar"
 ```
