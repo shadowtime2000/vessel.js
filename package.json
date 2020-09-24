@@ -1,5 +1,5 @@
 {
-  "name": "vesseljs",
+  "name": "vessel-js",
   "version": "0.1.0",
   "description": "A simple and lightweight yet powerful Dependency Injection Container package",
   "main": "dist/index.js",
