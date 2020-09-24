@@ -6,7 +6,7 @@ class DependencyInjectionContainer {
   }
 
   getDependency(id: string): any {
-      return this.dependencies[id]
+    return this.dependencies[id];
   }
 
   register<T>(id: string, dependency: T) {

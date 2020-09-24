@@ -20,9 +20,9 @@ describe("#DependencyInjectionContainer", () => {
   });
 
   describe(".getDependency()", () => {
-      before(() => container.register("bar", "foo"))
-      it("should return the correct dependency", () => {
-        expect(container.getDependency("bar")).to.equal("foo")
-      })
-  })
+    before(() => container.register("bar", "foo"));
+    it("should return the correct dependency", () => {
+      expect(container.getDependency("bar")).to.equal("foo");
+    });
+  });
 });
