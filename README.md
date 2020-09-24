@@ -2,7 +2,7 @@
 A simple and lightweight yet powerful Dependency Injection Container package
 
 ## Installation
-`npm i vessel.js`
+`npm i watercraft.js`
 
 ### Usage
 ```javascript
